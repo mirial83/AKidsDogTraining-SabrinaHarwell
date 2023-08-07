@@ -54,6 +54,7 @@ h2 {
 .main {
     margin-top: 200px;
     background-color: white;
+    padding: 10px;
 }
 .main h1 {
     color: #3c6a6a;
