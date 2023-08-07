@@ -1,0 +1,120 @@
+/* * {
+    border: 1px solid red;
+} */
+body {
+    background-color: rgb(130, 129, 129);
+}
+header {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 125px;
+    margin: 0 auto;
+    background-color: rgb(130, 129, 129);
+}
+h1, h3 {
+    color: paleturquoise;
+    text-shadow: 1px 1px 2px black;
+    text-align: center; 
+}
+h1 a:visited {
+    color: paleturquoise;
+}
+h2 {
+    text-align: center;
+}
+.main-nav {
+    background-color: darkslategrey;
+    display: inline-block;
+    width: 100%;
+    left: 0;
+    top: 125px;
+    position: fixed;
+}
+.main-nav ul {
+    margin: none;
+    padding: none;
+}
+.main-nav li {
+    list-style-type: none;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-nav a {
+    color: paleturquoise;
+    font-style: bold;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    display: block;
+}
+.main {
+    margin-top: 200px;
+    background-color: white;
+}
+.main h1 {
+    color: #3c6a6a;
+}
+.training-nav {
+    display: block;
+}
+.training-nav li {
+    list-style-type: none;
+}
+.training-nav a {
+    color: paleturquoise;
+    font-style: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black;
+}
+.explanation {
+    text-align: center;
+    background-color: #3c6a6a;
+    color: paleturquoise;
+}
+.intro {
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    background-color: paleturquoise;
+    color: black;
+}
+#basic, #funskills, #agility, #service, #alertskills, #seriesskills, #goodcitizen {
+    width: 60%;
+    background-color: #3c6a6a;
+    list-style-type: none;
+    color: paleturquoise;
+}
+.invoice {
+    border: 1px solid #3c6a6a;
+    width: 100%;
+}
+.skill-progress td, .skill-progress tr, .skill-progress th, .invoice td, .invoice tr, .invoice th {
+    border: 1px solid #3c6a6a;
+}
+table th {
+    background-color: #3c6a6a;
+    color: paleturquoise;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #3c6a6a;
+    left: 0;
+}
+footer .right {
+    text-align: right;
+    float: right;
+    color: paleturquoise;
+}
+footer .left {
+    left: 0;
+    float: left;
+    color: paleturquoise;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
