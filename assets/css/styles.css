@@ -59,6 +59,7 @@ h2 {
 }
 .training-nav {
     display: block;
+    background-color: #3c6a6a;
 }
 .training-nav li {
     list-style-type: none;
