@@ -19,6 +19,9 @@ h1, h3 {
     text-shadow: 1px 1px 2px black;
     text-align: center; 
 }
+h1 a:before {
+    color: paleturquoise;
+}
 h1 a:visited {
     color: paleturquoise;
 }
